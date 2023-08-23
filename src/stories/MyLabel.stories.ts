@@ -12,7 +12,7 @@ const meta = {
     size: { control: 'inline-radio' },
     fontColor: { control: 'color' },
   },
-} satisfies Meta<typeof MyLabel>;
+} as Meta<typeof MyLabel>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
